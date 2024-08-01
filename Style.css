@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.border {
+  height: 400px;
+  width: 300px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover{
+  border: 1px solid #ffffff;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card0 {
+  background: url("assets/edit.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.card0:hover {
+  background: url("assets/edit.JPG");
+  background-position: 12% 10%;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
+.card0:hover h2 {
+  opacity: 1;
+}
+
+.card0:hover .fab {
+  opacity: 10000;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fab {
+  opacity: 0;
+  transition: opacity 1s;
+  background-color: none;
+  font-size: 20px; 
+}
+
+.fa-whatsapp{
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+  border: none;
+}
+
+.fa-instagram{
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+  border: none;
+}
+
+.fa-facebook{
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+  border: none;
+}
+
+.fa-github{
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+  border: none;
+}
+
+.icons {
+  position: absolute;
+  fill: #000000;
+  color: #000000;
+  height: 140px;
+  top: 226px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
